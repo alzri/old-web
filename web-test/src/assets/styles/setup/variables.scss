@@ -1,0 +1,46 @@
+//colors
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #686868;
+    --footer-link-color: #515151;
+    --bg-color: #000000;
+}
+
+
+//Screen size
+$screen-xs: 500px;
+$screen-sm: 800px;
+$screen-md: 1024px;
+$screen-lg: 1240px;
+$screen-xl: 1280px;
+
+@mixin for-mobile-screen-sizes {
+    @media screen and (max-width: #{$screen-md}) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-screen-sizes {
+    @media screen and (max-width: #{$screen-sm}) {
+      @content;
+    }
+  }
+  
+  @mixin for-notepad-screen-sizes {
+    @media screen and (max-width: #{$screen-md}) {
+      @content;
+    }
+  }
+  
+  @mixin for-min-laptop-screen-sizes {
+    @media screen and (max-width: #{$screen-lg}) {
+      @content;
+    }
+  }
+  
+  @mixin for-laptop-screen-sizes {
+    @media screen and (max-width: #{$screen-xl}) {
+      @content;
+    }
+  }
+  
