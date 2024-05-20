@@ -20,7 +20,7 @@ function ProjectCardLayout() {
                 projectLink="/foodtrux"
                 projectBanner={FoodtruxBanner}
                 projectIcon={FoodtruxIcon}
-                projectIitle="Foodtrux Apps"
+                projectTitle="Foodtrux Apps"
                 projectDesc="Discover food trucks near you"
                 gridClass="grid-6"
             />
@@ -28,7 +28,7 @@ function ProjectCardLayout() {
                 projectLink="/dobartek"
                 projectBanner={Dobartekbanner}
                 projectIcon={DobartekIcon}
-                projectIitle="Dobartek Apps"
+                projectTitle="Dobartek Apps"
                 projectDesc="Food delivery service"
                 gridClass="grid-6"
             />
@@ -36,7 +36,7 @@ function ProjectCardLayout() {
                 projectLink="/mckinsey"
                 projectBanner={McKinseybanner}
                 projectIcon={McKinseyIcon}
-                projectIitle="McKinsey&Co"
+                projectTitle="McKinsey&Co"
                 projectDesc="Expense and travel management app"
                 gridClass="grid-12"
             />
@@ -44,7 +44,7 @@ function ProjectCardLayout() {
                 projectLink="/hajduk"
                 projectBanner={HajdukBanner}
                 projectIcon={HajdukIcon}
-                projectIitle="HNK Hajduk Split"
+                projectTitle="HNK Hajduk Split"
                 projectDesc="The most significant foodball club in Croatia"
                 gridClass="grid-6"
             />
@@ -52,7 +52,7 @@ function ProjectCardLayout() {
                 projectLink="/nutricionist"
                 projectBanner={NutricionistBanner}
                 projectIcon={NutricionistIcon}
-                projectIitle="Nutricionist"
+                projectTitle="Nutricionist"
                 projectDesc="Digitalisation of nutritionist practice using Mobile and Web Apps"
                 gridClass="grid-6"
             />
@@ -60,7 +60,7 @@ function ProjectCardLayout() {
                 projectLink="/bitcoin-store"
                 projectBanner={BitcoinBanner}
                 projectIcon={BitcoinIcon}
-                projectIitle="Bitcoin Store"
+                projectTitle="Bitcoin Store"
                 projectDesc="Buy and sell Bitcoin and other crypto"
                 gridClass="grid-12"
             />
