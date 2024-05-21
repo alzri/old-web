@@ -1,15 +1,15 @@
-const ProjectCard = (props) => {
+const ProjectCard = ({ projectLink, gridClass, projectBanner, projectIcon, projectTitle, projectDesc }) => {
     return (
-        <a href={props.projectLink} className={`project-card ${props.gridClass}`}>
+        <a href={projectLink} className={`project-card ${gridClass}`}>
             <span className="project-card--top">
-                <img src={props.projectBanner} alt="" className="project-card--bottom--banner" />
+                <img src={projectBanner} alt="" className="project-card--bottom--banner" />
             </span>
 
             <span className="project-card--bottom">
-                <img src={props.projectIcon} alt="" className="project-card--bottom--icon" />
+                <img src={projectIcon} alt="" className="project-card--bottom--icon" />
                 <span className="project-card--bottom--title">
-                    <h3>{props.projectTitle}</h3>
-                    <h5>{props.projectDesc}</h5>
+                    <h3>{projectTitle}</h3>
+                    <h5>{projectDesc}</h5>
                 </span>
             </span>
         </a>
