@@ -1,3 +1,4 @@
+import Logo from '../../assets/img/adp-logo.svg?react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
