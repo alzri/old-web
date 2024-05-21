@@ -1,5 +1,5 @@
-import Header from '../../components/header/Index';
-import Footer from '../../components/footer/Index';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 import HeroTitle from '../../components/body/HeroTitle';
 import ProjectCardLayout from '../../components/body/ProjectCardLayout';
 import '../../assets/styles/style.scss';

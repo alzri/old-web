@@ -1,5 +1,4 @@
-import Header from '../../components/header/Index';
-import Footer from '../../components/footer/Index';
+import Footer from '../../components/footer';
 import HeroTitle from "../../components/body/HeroTitle";
 
 function About() {
