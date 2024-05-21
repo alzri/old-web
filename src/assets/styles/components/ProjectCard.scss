@@ -1,0 +1,40 @@
+.projects-grid {
+    margin-top: var(--spacing-m);
+    display: grid;
+    column-gap: var(--gap-m);
+    row-gap: var(--gap-l);
+ 
+    .project-card {
+        text-decoration: none;
+
+        &.grid-6 {
+            grid-column: span 6;
+
+            .project-card--bottom--icon {
+                width: 85px;
+                height: auto;
+            }
+        }
+    
+        &.grid-12 {
+            grid-column: span 12;
+
+            .project-card--bottom--icon {
+                width: 75px;
+                height: auto;
+            }
+        }
+
+        &--bottom {
+            display: flex;
+            gap: var(--spacing-m);
+            margin-top: var(--spacing-s);
+            align-items: flex-start;
+
+            &--banner {
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+    }
+}

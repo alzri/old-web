@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--header-spacing-m) 0;
+
+    &--links {
+        display: flex;
+        gap: var(--spacing-m);
+        list-style: none;
+        margin-right: auto;
+
+        .nav__link {
+            cursor: pointer;
+            transition: all 0.35s ease;
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: -22px;
+                left: 0;
+                right: 100%;
+                transition: all 0.35s ease;
+                height: 1px;
+                background-color: var(--primary-text-color, 0.8);
+            }
+
+            &.active::after {
+                right: 0;
+            }
+
+            @media (hover: hover) {
+                &:not(.active):hover {
+                    &:after {
+                        right: 50%;
+                    }
+                }
+            }
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary-text-color);
+            font-family: 'SFProText';
+            font-weight: 500;
+            font-size: 1.2rem;
+            line-height: 1.5625rem;
+            letter-spacing: .081rem;
+            text-transform: lowercase;
+        }
+    }
+}

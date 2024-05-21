@@ -1,0 +1,50 @@
+[
+    {
+        "projectLink": "/foodtrux",
+        "projectBanner": "/src/assets/img/foodtrux-small.jpg",
+        "projectIcon": "/src/assets/img/foodtrux.svg",
+        "projectTitle": "Foodtrux Apps",
+        "projectDesc": "Discover food trucks near you",
+        "gridClass": "grid-6"
+    },
+    {
+        "projectLink": "/dobartek",
+        "projectBanner": "/src/assets/img/dobartek-small.jpg",
+        "projectIcon": "/src/assets/img/dobar-tek-logo.svg",
+        "projectTitle": "Dobartek Apps",
+        "projectDesc": "Food delivery service",
+        "gridClass": "grid-6"
+    },
+    {
+        "projectLink": "/mckinsey",
+        "projectBanner": "/src/assets/img/mckinsey-large.jpg",
+        "projectIcon": "/src/assets/img/mckinsey.svg",
+        "projectTitle": "McKinsey&Co",
+        "projectDesc": "Expense and travel management app",
+        "gridClass": "grid-12"
+    },
+    {
+        "projectLink": "/hajduk",
+        "projectBanner": "/src/assets/img/Homepage-HajdukBanner.png",
+        "projectIcon": "/src/assets/img/Hajduk.svg",
+        "projectTitle": "HNK Hajduk Split",
+        "projectDesc": "The most significant football club in Croatia",
+        "gridClass": "grid-6"
+    },
+    {
+        "projectLink": "/nutricionist",
+        "projectBanner": "/src/assets/img/nutricionist-small.jpg",
+        "projectIcon": "/src/assets/img/nutricionist.svg",
+        "projectTitle": "Nutricionist",
+        "projectDesc": "Digitalisation of nutritionist practice using Mobile and Web Apps",
+        "gridClass": "grid-6"
+    },
+    {
+        "projectLink": "/bitcoin-store",
+        "projectBanner": "/src/assets/img/bitcoin-store-large.jpg",
+        "projectIcon": "/src/assets/img/Bitcoin-store.svg",
+        "projectTitle": "Bitcoin Store",
+        "projectDesc": "Buy and sell Bitcoin and other crypto",
+        "gridClass": "grid-12"
+    }
+]
